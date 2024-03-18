@@ -1,0 +1,111 @@
+:root{
+    font-size: 16px;
+}
+
+.recipe {
+	width: 35em;
+	height: 50em;
+	margin: 5em auto;
+	background-color:white;
+	background-size: cover;
+    border-radius: 30px;
+}
+
+.recipe header{
+    text-align:center;
+	vertical-align: middle;
+	padding: 1em;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.first_button{
+	font-size: 1.1em;
+	width: 22em;
+	border-radius: 100px;
+	background-color:darkgreen;
+	border-color:darkgreen;
+	height: 4em;
+}
+
+.second_button{
+	font-size: 1.1em;
+	width: 23em;
+	border-radius: 100px;
+	background-color:grey;
+	border-color:grey;
+	height: 4em;
+}
+.third_button{
+	font-size: 1.1em;
+	width: 22em;
+	border-radius: 100px;
+	background-color:brown;
+	border-color:brown;
+	height: 4em;
+}
+
+.bottom_section1{
+	padding-left: 9em;
+	padding-right: 9em;
+	padding-top: 1em;
+	opacity:0.4;
+}
+.bottom_section2{
+	padding-left: 9em;
+	padding-right: 9em;
+	opacity:0.4;
+}
+
+.terms_of_use2{
+	text-wrap: wrap;
+	display: block;
+	text-align:center;
+	padding-left:4em;
+	padding-right:4em;
+}
+
+.main_hr{
+	margin-top:3.3em ;
+	background-color:darkolivegreen;
+	border: none;
+}
+
+
+.dot {
+	height: 80px;
+	width: 80px;
+	background-color: #bbb;
+	border-radius: 100%;
+	margin-top: 1em;
+	margin-right: 14em;
+	background-color:darkolivegreen;
+}
+
+.fa-solid{
+	color:white;
+	font-size: 1.7em;
+	margin-top: 1.6em;
+	position: relative;
+	inset-inline-end: 10.2em;
+
+}
+
+.fa-regular{
+	position: relative;
+	inset-inline-start:1.6em ;
+	margin-top: 0.9em;
+	font-size: 1.5em;
+}
+
+#first_pen_icon{
+	inset-inline-start:4.4em ;
+}
+
+#trash_icon{
+	inset-inline-start:4.4em;
+}
