@@ -31,6 +31,10 @@
 	border-color:darkgreen;
 	height: 4em;
 }
+.first_button:hover{
+	background-color:lightgreen;
+}
+
 
 .second_button{
 	font-size: 1.1em;
@@ -40,6 +44,9 @@
 	border-color:grey;
 	height: 4em;
 }
+.second_button:hover{
+	background-color:lightgray;
+}
 .third_button{
 	font-size: 1.1em;
 	width: 22em;
@@ -48,7 +55,9 @@
 	border-color:brown;
 	height: 4em;
 }
-
+.third_button:hover{
+	background-color: lightcoral;
+}
 .bottom_section1{
 	padding-left: 9em;
 	padding-right: 9em;

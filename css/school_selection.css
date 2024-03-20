@@ -1,0 +1,96 @@
+
+:root{
+    font-size: 16px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.image-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.image-container img {
+    border: 2px solid white;
+    border-top-left-radius:  1em;
+    border-top-right-radius: 1em;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    height:16em;
+}
+
+.image-container a{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 1em;
+    height: 20em;
+    width: 32em;
+    margin-bottom: 2em;
+}
+
+.image-container a p{
+    text-transform: uppercase;
+    text-wrap: wrap;
+}
+
+.image-container a:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+.image-container a:link:hover{
+    background-color: transparent;
+    text-decoration: none;
+}
+.image-container a:visited {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.image-container a:hover {
+    color:brown;
+    background-color: transparent;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.image-container a:active {
+    color:yellowgreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.top_hr{
+    margin-bottom: 3em;
+    background-color: black;
+}
+
+.fa-solid{
+    position: relative;
+    font-size: 2em;
+    color:black;
+    text-transform: lowercase;
+    inset-inline-start: 0.7em;
+
+}
+
+.fa-solid:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.fa-solid:hover{
+    background-color:transparent;
+    color:grey;
+    text-decoration: none;
+}
