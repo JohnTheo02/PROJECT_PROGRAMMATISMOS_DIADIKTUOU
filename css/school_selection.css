@@ -1,12 +1,80 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+.header .fa-solid{
+  text-align: start;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgb(0, 0, 0) 0%, rgb(107, 79, 79) 100%);
+  color:white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
 
 :root{
     font-size: 16px;
     color: black;
 }
 
-h2{
+h1{
     text-align: center;
-    margin-bottom: 1em;
 }
 
 .image-container {
@@ -22,18 +90,18 @@ h2{
 }
 
 .image-container img {
-    border: 2px solid white;
     border-top-left-radius:  1em;
     border-top-right-radius: 1em;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     height:16em;
+    
 }
 
 .image-container a{
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
+    border: 1px solid lightgrey;
     border-radius: 1em;
     height: 20em;
     width: 32em;
@@ -78,7 +146,7 @@ h2{
 .fa-solid{
     position: relative;
     font-size: 2em;
-    color:black;
+    color:white;
     text-transform: lowercase;
     inset-inline-start: 0.7em;
 
@@ -91,6 +159,23 @@ h2{
 
 .fa-solid:hover{
     background-color:transparent;
-    color:grey;
+    color:black;
     text-decoration: none;
+}
+
+.previous_button:link{
+  background-color: transparent;
+  text-decoration: none;
+
+}
+.previous_button{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.previous_button div{
+  position: relative;
+  inset-inline-start: 2em;
+  margin-top: 0.4em;
+  color:white;
 }
