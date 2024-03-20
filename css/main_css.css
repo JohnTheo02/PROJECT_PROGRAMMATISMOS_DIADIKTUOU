@@ -117,13 +117,14 @@ p {
 	border-color:rgb(202, 156, 200);
 	height: 6em;
 	margin-top: 4em;
+  border-style:none;
 }
 
 .first_button:hover{
-	opacity: 0.8;
+  background-image: linear-gradient(to bottom,rgb(0,0,0,0),rgb(0,0,0,0.5));
 }
 .first_button:active{
-	background-color:rgb(161, 100, 152);
+	background-image:linear-gradient(to bottom,rgb(0,0,0,0.5),rgb(0,0,0,0.5));
 }
 
 .second_button{
@@ -133,12 +134,13 @@ p {
 	background-color:rgb(128, 59, 59);
 	border-color:rgb(128, 59, 59);
 	height: 6em;
+  border-style:none;
 }
 .second_button:hover{
-	opacity: 0.8;
+  background-image: linear-gradient(to bottom,rgb(0,0,0,0),rgb(0,0,0,0.5));
 }
 .second_button:active{
-	background-color:rgb(112, 36, 33);
+	background-image:linear-gradient(to bottom,rgb(0,0,0,0.5),rgb(0,0,0,0.5));
 }
 .bottom_section1{
 	padding-left: 9em;
