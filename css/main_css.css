@@ -160,8 +160,19 @@ p {
 	text-align:center;
 	padding-left:4em;
 	padding-right:4em;
-}
+  color:rgb(10, 1, 94);
 
+}
+.terms_of_use2:link{
+  background-color: transparent;
+  text-decoration: none;
+
+}
+.terms_of_use2:hover{
+  background-color: transparent;
+  text-decoration: none;
+  opacity: 0.7;
+}
 
 .fa-regular{
 	position: relative;
