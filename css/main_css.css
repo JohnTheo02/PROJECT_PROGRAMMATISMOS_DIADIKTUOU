@@ -20,7 +20,7 @@ p {
 
 
 .inner-header {
-  height:50vh;
+  height:25vh;
   width:100%;
   margin: 0;
   padding: 0;
@@ -98,9 +98,9 @@ p {
 
 
 .recipe header{
-    text-align:center;
-	vertical-align: middle;
-	padding: 1em;
+  text-align:center;
+  vertical-align: middle;
+  padding: 1em;
 }
 
 .container{
@@ -191,12 +191,56 @@ p {
 }
 
 .btn1{
-	margin-top: 5em;
+	margin-top: 10em;
 }
 
 h1{
-	margin-top: 18em;
+	margin-top: 22em;
 }
 .btn2{
-	margin-top: 6em;
+	margin-top: 1em;
+}
+
+
+.fa-solid{
+  font-size: 2.1em;
+  color:rgb(255, 255, 255);
+  position: relative;
+  margin-top: 0.2em;
+  inset-inline-start: 40vw;
+}
+.fa-solid:hover .dropdown-content{
+  display: block;
+}
+
+
+.fa-solid:link{
+  text-decoration: none;
+  background-color:transparent;
+  
+}
+
+.dropdown-content {
+  display: none;
+  overflow: none;
+  font-size: 0.6em;
+  text-align:center;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
+}
+
+.dropdown-content a {
+  display: block;
+  color:white;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  opacity: 0.4;
+}
+.transparent{
+  color:transparent;
 }
