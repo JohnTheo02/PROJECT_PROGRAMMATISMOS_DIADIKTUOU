@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form_student_css.css">
+    <script src="https://kit.fontawesome.com/21e8240c08.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:grey">
+
+<form class="form_container">
+    <ul class="progress_bar">
+      <li>Στοιχεια βλαβης<strong>___</strong></li>
+      <li >Προσωπικα στοιχεια</li>
+      <li class="active">Προσωπικα στοιχεια</li>
+    </ul>
+    <fieldset class="field field1">
+      <h2 class="title">Προσωπικά στοιχεία φοιτητή</h2>
+      <div class="same_line">
+        <input type="text" class="input name" name=name placeholder="Όνομα" required>
+        <input type="text" class="input surname" name=surname placeholder="Επώνυμο" required>
+      </div>
+      <input type="email" class="input mail" name=mail placeholder="Ηλεκτρονική Δ/νση(Email)" required>
+      <div class="same_line">
+        <input type="number" class="input am"name="am" id="am" min="100000" step="1"placeholder="π.χ.1050505" pattern="[0-9]{7}" required>
+        <input size=25 type="tel" class="input phone" id="phone_number" name="phone_number" placeholder="Τηλέφωνο" pattern="[0-9]{10}" required>
+      </div>
+      <label class="accept_label"><input type="checkbox" class="accept_terms" name="accept_terms" value="accept">Αποδοχή των όρων</label>
+    </fieldset>
+  </form>
+  
+  <script src="js/form_js.js"></script>
+
+</body>
+</html>

@@ -1,12 +1,12 @@
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
   margin:0;
+  font-family: 'Inter';
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
   font-size:14px;
   color: #333333;
 }
@@ -14,18 +14,19 @@ p {
 .header {
   position:relative;
   text-align:center;
-  color:white;
+  color:rgb(0, 0, 0);
 
 }
 
-
 .inner-header {
-  height:25vh;
+  height:40vh;
   width:100%;
   margin: 0;
   padding: 0;
   flex-direction: column;
+  
 }
+
 
 .flex {
   display: flex;
@@ -47,7 +48,7 @@ p {
   position:relative;
   height:20vh;
   text-align:center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 /* Animation */
@@ -92,10 +93,6 @@ p {
     font-size:24px;
   }
 }
-:root{
-    font-size: 16px;
-}
-
 
 .recipe header{
   text-align:center;
@@ -107,60 +104,53 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+  
 }
 
 .first_button{
-	font-size: 1.6em;
-	width: 16em;
+  margin-top: 10em;
+  color: rgb(255, 255, 255);
+  font-family: 'Inter';
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 1.4em;
+	width: 14.5em;
 	border-radius: 100px;
-	background-color:rgb(202, 156, 200);
-	border-color:rgb(202, 156, 200);
-	height: 6em;
-	margin-top: 4em;
+	background-color:rgb(0, 0, 0);
+	border-color:rgb(0, 0, 0);
+	height: 5em;
+
+	margin-top: 12em;
   border-style:none;
 }
 
 .first_button:hover{
-  background-image: linear-gradient(to bottom,rgb(0,0,0,0),rgb(0,0,0,0.5));
-}
-.first_button:active{
-	background-image:linear-gradient(to bottom,rgb(0,0,0,0.5),rgb(0,0,0,0.5));
+  font-size: 1.41em;
 }
 
-.second_button{
-	font-size: 1.6em;
-	width: 16em;
-	border-radius: 100px;
-	background-color:rgb(128, 59, 59);
-	border-color:rgb(128, 59, 59);
-	height: 6em;
-  border-style:none;
-}
-.second_button:hover{
-  background-image: linear-gradient(to bottom,rgb(0,0,0,0),rgb(0,0,0,0.5));
-}
-.second_button:active{
-	background-image:linear-gradient(to bottom,rgb(0,0,0,0.5),rgb(0,0,0,0.5));
-}
+
 .bottom_section1{
 	padding-left: 9em;
 	padding-right: 9em;
-	padding-top: 1em;
+	padding-top: 5em;
 	opacity:0.4;
+  color: white;
+  
 }
 .bottom_section2{
 	padding-left: 9em;
 	padding-right: 9em;
 	opacity:0.4;
+  color: white;
 }
 
 .terms_of_use2{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	text-wrap: wrap;
 	display: block;
 	text-align:center;
 	padding-left:4em;
 	padding-right:4em;
-  color:rgb(10, 1, 94);
+  color:rgb(105,121,248);
 
 }
 .terms_of_use2:link{
@@ -178,17 +168,16 @@ p {
 	position: relative;
 	inset-inline-start:1.6em ;
 	margin-top: 2.7em;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 #first_pen_icon{
-	inset-inline-start:3.4em ;
-	margin-top: 7em;
+	inset-inline-start:3.3em ;
+	margin-top: 19.78em;
+  color: white;
+  
 }
 
-#trash_icon{
-	inset-inline-start:3.8em;
-}
 
 .btn1{
 	margin-top: 10em;
@@ -200,7 +189,6 @@ h1{
 .btn2{
 	margin-top: 1em;
 }
-
 
 .fa-solid{
   font-size: 2.1em;
@@ -220,28 +208,53 @@ h1{
   
 }
 
-.dropdown-content {
-  display: none;
-  overflow: none;
-  font-size: 0.6em;
-  text-align:center;
-  font-family: 'Times New Roman', Times, serif;
-  
+
+.sign{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-  position: relative;
+.signin_button{
+  font-family: 'Inter';
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  border-radius: 1em;
+  border-style: none;
+  border-color: black;
+  border-style: solid;
+  margin-top: 1.2em;
+  height: 2em;
+  width: 7em;
+  font-size: 0.9em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-right: 1em;
+}
+.signup_button{
+  font-family: 'Inter';
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  border-radius: 1em;
+  margin-top: 1.2em;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  height: 2em;
+  width: 7em;
+  font-size: 0.9em;
+  background-color:transparent;
+  color: rgb(255, 255, 255);
+  margin-right: 5em;
 }
 
-.dropdown-content a {
-  display: block;
-  color:white;
-  text-decoration: none;
+.signin_button:hover{
+  font-size: 0.91em;
+  color:rgb(105,121,248);
 }
-.dropdown-content a:hover {
-  opacity: 0.4;
+.signup_button:hover{
+  color:rgb(105,121,248);
+  font-size: 0.91em;
 }
-.transparent{
-  color:transparent;
+
+.btn1 *:hover{
+  color:rgb(105,121,248);
 }
