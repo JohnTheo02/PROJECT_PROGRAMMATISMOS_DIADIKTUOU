@@ -1,8 +1,8 @@
 :root{
     font-size: 16px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Inter';
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h1{
@@ -35,7 +35,7 @@ h1{
 .image-container a{
     display: flex;
     flex-direction: column;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(19, 19, 19);
     border-radius: 1em;
     height: 20em;
     width: 32em;
@@ -45,6 +45,7 @@ h1{
 .image-container a p{
     text-transform: uppercase;
     text-wrap: wrap;
+    font-size: 0.93em;
 }
 
 .image-container a:link{
@@ -61,26 +62,26 @@ h1{
     text-decoration: none;
 }
 .image-container a:hover {
-    color:brown;
+    
     background-color: transparent;
     opacity: 0.8;
     text-decoration: underline;
+    color:rgb(105,121,248);
 }
 .image-container a:active {
-    color:yellowgreen;
     background-color: transparent;
     text-decoration: underline;
 }
 
 .top_hr{
     margin-bottom: 3em;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .fa-solid{
     position: relative;
     font-size: 2em;
-    color:black;
+    color:rgb(255, 255, 255);
     text-transform: lowercase;
     inset-inline-start: 0.7em;
 
@@ -93,7 +94,8 @@ h1{
 
 .fa-solid:hover{
     background-color:transparent;
-    color:rgb(95, 95, 95);
+    color:rgb(105,121,248);
+
     text-decoration: none;
 }
 
@@ -111,5 +113,57 @@ h1{
   position: relative;
   inset-inline-start: 2em;
   margin-top: 0.4em;
-  color:black;
+  color:rgb(255, 255, 255);
 }
+
+.img p{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.img:hover p{
+    color: rgb(105,121,248);
+}
+
+.navigation {
+    overflow: hidden;
+    margin-bottom: 5em;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:nowrap;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navigation a {
+    background-color: rgb(19, 19, 19);
+    float: left;
+    color:rgb(139, 139, 139);
+    text-align: center;
+    padding: 0.9em ;
+    text-decoration: none;
+    font-size: 0.9em;
+
+  }
+  
+  /* Change the color of links on hover */
+  .navigation a:hover {
+    color: rgb(105,121,248);
+  }
+  
+  /* Add a color to the active/current link */
+  .navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .last_nav{
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
+  .first_nav{
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+  }
