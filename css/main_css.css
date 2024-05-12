@@ -1,9 +1,8 @@
 
 body {
   margin:0;
-  font-family: 'Inter';
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background-image: url(../image4.jpg);
+  background-image: url(../photos/image4.jpg);
 
 }
 
@@ -157,11 +156,12 @@ h2{
 
 
 .first_button {
-  background-color: rgb(25, 25, 25);
-  border: none;
-  color: white;
+  background-color: rgb(255, 255, 255);
+
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
   font-size: 1.1em;
-	border-radius: 1.5em;
+  border-radius: 1.5em;
   padding-top: 1.5em;
   margin-top: 2em;
   margin-bottom: 4em;
@@ -176,11 +176,7 @@ h2{
 
 .first_button:hover{
   transform: scale(1.1);
-  color:rgb(0, 0, 0);
-}
-
-.first_button:hover #first_pen_icon{
-  color:rgb(0, 0, 0);
+  opacity: 0.6;
 }
 
 
@@ -207,7 +203,6 @@ h2{
     width: 23em;
     height: 30em;
     margin: 2em auto;
-    border-radius: 5em;
     text-align: center;
     box-shadow: none;
   }
@@ -239,9 +234,8 @@ h2{
   }
   .main{
     width: 23em;
-   
+    
     margin: 2em auto;
-    border-radius: 5em;
     text-align: center;
     box-shadow: none;
   }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Δήλωση βλάβης στο Πανεπιστήμιο Πατρών</title>
+    <link rel="stylesheet" href="css/form_css.css">
+    <script src="https://kit.fontawesome.com/21e8240c08.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <form class ="form" action="" method="get">
+      <fieldset>
+          <legend>
+              Στοιχεία φοιτητή
+          </legend>
+          <div>
+              Συμπληρώστε τα στοιχεία σας με ελληνικούς χαρακτήρες
+          </div>
+          <br><br>
+          <div class="form-example">
+              <label for="name">Ονοματεπώνυμο</label>
+          </div>
+              <input size=25 type="text" id="name" name="name" placeholder="Όνομα" required>
+              <input size=25 type="text" id="surname" name="surname" placeholder="Επώνυμο" required>
+          <br><br>
+          <div  class="form-example">
+              <label for="address">Στοιχεία διεύθυνσης</label>
+          </div>
+              <input size =50 type="text" id="address" name="address" placeholder="Οδός και αριθμός"  required>
+          <br><br>
+          <div>
+              <input size=25 type="text" id="country" name="country" placeholder="Πόλη" required>
+              <input size=25 type="text" id="postcode" name="postcode" placeholder="Ταχυδρομικός Κώδικας" required>
+          </div>
+          <br>
+          <div>
+              <label for="contact_info">Στοιχεία επικοινωνίας</label>
+          </div>
+          <input size=25 type="tel" id="phone_number" name="phone_number" placeholder="Τηλέφωνο" pattern="[0-9]{10}" required>
+          <input size=25 type="email" id="mail_address" name="mail_address" placeholder="Διεύθυνση μέιλ" required>
+          <div>
+              <br>
+              <label for="contact_info">Έτος σπουδών</label>
+              <input style="height:fit-content" type="radio" id="year_of_studies_A" name="year_of_studies" value="A" required> Α
+              <input style="height:fit-content" type="radio" id="year_of_studies_B" name="year_of_studies" value="Β"> Β
+              <input style="height:fit-content" type="radio" id="year_of_studies_C" name="year_of_studies" value="Γ"> Γ
+              <input style="height:fit-content" type="radio" id="year_of_studies_D" name="year_of_studies" value="Δ"> Δ
+              <input style="height:fit-content" type="radio" id="year_of_studies_E" name="year_of_studies" value="Ε"> Ε
+          </div>
+          <br>
+          <label for="AM">Αριθμός μητρώου</label>
+          <div>
+              <input type="number" name="AM" id="AM" min="100000" step="1"placeholder="1050505" pattern="[0-9]{7}" required>
+
+          </div>
+      </fieldset>
+      <fieldset>
+          <legend>
+              Επιλέξτε πιστοποιητικό και τρόπο παραλαβής
+          </legend>
+          <label for="certificate">Είδος πιστοποιητικού</label>
+          <br>
+          <select name="certificate" id="certificate" required>
+              <option value="Fk">Φωτοτυπία καρτέλας</option>
+              <option value="Bf">Βεβαίωση Φοίτησης</option>
+              <option value="Fk">Βεβαίωση Μεταπτυχιακού</option>
+          </select>
+      </fieldset>
+      <fieldset>
+          <legend >Παραλαβή πιστοποιητικού</legend>
+          <input  type="radio" id="receive_certificate" name="receive_certificate" value="secretary" required>Παραλαβή από τη γραμματεία <br>
+          <input type="radio" id="receive_certificate" name="receive_certificate" value="courier">Αποστολή στη διεύθυνση οικίας
+
+      <br><br>
+          <label for="receive_date">Ημερομηνία παραλαβής</label><br>
+          <input type="date" id ="date_of_receive" name="date_of_receive" required>
+      </fieldset>
+      <br>
+      <input type="submit" value="Υποβολή">
+
+  </form>
+
+
+  <script src="js/form_js.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+
+body {
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url(../photos/image4.jpg);
+  
+  }
+  
+  p {
+    font-size:14px;
+    color: #333333;
+  }
+  
+  .header {
+    position:relative;
+    text-align:center;
+    color:rgb(0, 0, 0);
+  }
+  
+  .inner-header {
+    height:40em;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+    .content {
+      height:30vh;
+    }
+    h2 {
+      font-size:24px;
+    }
+  }
+  
+  .recipe header{
+    text-align:center;
+    vertical-align: middle;
+    padding: 1em;
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+  }
+  
+  
+  .bottom_section1{
+      padding-left: 9em;
+      padding-right: 9em;
+      padding-top: 5em;
+      opacity:0.7;
+    color: rgb(0, 0, 0);
+    
+  }
+  .bottom_section2{
+      padding-left: 9em;
+      padding-right: 9em;
+      opacity:0.7;
+    color: rgb(0, 0, 0);
+  }
+  
+  .terms_of_use2{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      text-wrap: wrap;
+      display: block;
+      text-align:center;
+      padding-left:4em;
+      padding-right:4em;
+    color:#2e44ff;
+  
+  }
+  .terms_of_use2:link{
+    background-color: transparent;
+    text-decoration: none;
+  
+  }
+  .terms_of_use2:hover{
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  
+  
+  h2{
+      margin-top: 8em;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .sign{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  
+  .signin_button{
+    font-family: 'Inter';
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    border-radius: 1em;
+    border-style: none;
+    border-color: rgb(25, 25, 25);
+    border-style: solid;
+    margin-top: 1.2em;
+    height: 2em;
+    width: 7em;
+    font-size: 0.9em;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    margin-right: 1em;
+    transition: all 0.3s ease;
+  }
+  .signup_button{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    border-radius: 1em;
+    margin-top: 1.2em;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 2em;
+    width: 7em;
+    font-size: 0.9em;
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+   
+    transition: all 0.3s ease;
+  }
+  
+  .signin_button:hover{
+    transform: scale(1.1);
+    color:rgb(0, 0, 0);
+  }
+  .signup_button:hover{
+    color:rgb(105,121,248);
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .first_button {
+    background-color: rgb(255, 255, 255);
+  
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    border-radius: 1.5em;
+    padding-top: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    justify-content: center;
+    padding-bottom: 1.5em;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      width: 14.5em;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .first_button:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+  
+  
+  
+  .form{
+    background-color: rgb(255, 255, 255);
+    width: 30em;
+    height: 48em;
+    margin: 5em auto;
+    border-radius: 5em;
+    text-align: center;
+      
+  }
+  
